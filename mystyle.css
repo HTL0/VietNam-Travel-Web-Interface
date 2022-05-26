@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+.fa {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .hr{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .carousel-inner img{
+        height: 300px;
+    }
+    #main{
+        background-color: rgb(239, 239, 239);
+        margin-top: 0px;
+        padding-bottom: 5%;
+        overflow: auto;
+    }
+    #main h3{
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 10px;
+    }
+    .picture{
+        padding-top: 13%;
+    }
+    .picture h2{
+        font-weight: bold;
+    }
+    .picture p{
+        font-size: 160%;
+        padding-top: 5%;      
+    }
+    .picture img{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .carousel-inner img{
+        height: 400px;
+    }
+    .hr{
+        width: 98%;
+    }
+    #main{
+        background-color: rgb(239, 239, 239);
+        margin-top: 0px;
+        padding-bottom: 5%;
+        overflow: auto;
+    }
+    #main h3{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .picture{
+        padding-top: 5%;
+    }
+    .picture h2{
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .picture p{
+        font-size: 80%;
+        padding-top: 1%;      
+    }
+    .picture img{
+        padding-top: 10%;
+        padding-right: 3%
+    }
+}
+@media only screen and (min-width: 992px) {
+    nav a:hover {
+        font-size: 110%;
+        color: black;
+        background-color:rgb(255, 227, 166);
+    }
+    nav a:active {
+        color:honeydew;
+    }
+    .carousel-inner img{
+        height: 550px;
+    }
+    hr{
+        visibility: hidden;
+    }
+    #main {
+         background-color: rgb(239, 239, 239);
+         margin-top: 0px;
+         overflow: auto;
+         margin-bottom: -10%;
+    }
+    #main h3{
+        font-size: 200%;
+        color: white;
+        padding-top: 7%;
+    }
+    .picture{
+        margin-top: -4%;
+        padding-bottom: 12%;
+        padding-left: 3%;
+    }
+    .picture h2{
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .picture p{
+        font-size: 80%;
+        margin-top: -1%;      
+    }
+    .picture img{
+        padding-top: 10%;
+        margin-bottom: -15%;
+        padding-right: 1%;
+    }    
+    footer h3{
+        font-size: 200%;
+        font-weight: bold;
+    }
+}
